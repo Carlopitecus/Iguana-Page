@@ -1,0 +1,99 @@
+/* Generales */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/* nav */
+nav {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* header */
+.header__img--size {
+    width: 100%;
+}
+
+/* Section */
+/* Articulo 1 */
+#articulo1 {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+}
+
+.articulo1__img--size {
+    width: 30vw;
+    padding: 45px 100px;
+    margin-left: 40;
+}
+
+.articulo1__texto--size {
+    padding: 45px 100px;
+    margin-top: 30px;
+}
+
+/* Articulo 2 */
+#articulo2 {
+    background-color: #1e1a13;
+    text-align: center;
+    padding:40px;
+}
+
+.articulo2__contenedoricono--aspecto{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    margin-top: 50px;
+    
+}
+
+i{
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+}
+
+/* Articulo 3 */
+#articulo3{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#articulo3 img {
+    width: 20vw;
+}
+
+/* Footer */
+footer {
+    color: #ffffff;
+    background-color: #1e1a13;
+    text-align: center;
+    padding: 25px;
+}
